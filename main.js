@@ -1,6 +1,4 @@
 let menu = document.getElementById("razas");
-let images = 
-
 fetch("https://dog.ceo/api/breeds/list/all") // URL correcta
     .then(response => response.json())
     .then(data => {
